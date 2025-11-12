@@ -26,14 +26,12 @@ sudo apt-get install docker-compose
 ```
 sudo apt-get install python<verificar_versão>
 ```
-<del>
 ## 🚀 Installing
 
 In order to run the project, you need to install the libraries listed in requirements.txt:
 ```
 pip install -r requirements.txt
 ```
-</del>
 
 ## ☕ Using the API
 
