@@ -1,9 +1,11 @@
-# 💧 SMB: Sistema Web de Monitoramento e Análise de Dados de Barragens
+# 💧 SMB: Web-Based Dam Monitoring and Data Analysis System
 
-Este repositório contém os materiais relacionados ao artigo:
+**Authors:**
+Raimundo M. B. Neto , Victor F. Souza, Max J. L. P. Júnior, Iury G. O. Silva, Luiz S. S. M. Filho, Adam D. F. Santos, Reginaldo C. S. Filho, Hugo P. Kuribayashi, Carlos R. L. Francês , João C. W. A. Costa
 
-> **SMB: Web-Based Dam Monitoring and Data Analysis System**  
-> Publicado na *IEEE Latin America Transactions*
+**Affiliation:**
+- Federal University of Pará (UFPA)
+- Federal University of Southern and Southeastern Pará (UNIFESSPA)
 
 ---
 
@@ -38,5 +40,5 @@ O sistema integra técnicas de **Aprendizado de Máquina** ao processo de **Moni
 ---
 ## Instruções para execução do projeto
 
-- As instruções para a execução do Backend e Frontend da aplicação estão disponíveis em suas respectivas pastas no arquivo Readme.
+- **As instruções para a execução do Backend e Frontend da aplicação estão disponíveis em suas respectivas pastas no arquivo Readme.**
 
