@@ -1,7 +1,17 @@
 # 💧 SMB: Web-Based Dam Monitoring and Data Analysis System
 
-**Authors:**
-Raimundo M. B. Neto , Victor F. Souza, Max J. L. P. Júnior, Iury G. O. Silva, Luiz S. S. M. Filho, Adam D. F. Santos, Reginaldo C. S. Filho, Hugo P. Kuribayashi, Carlos R. L. Francês , João C. W. A. Costa
+**Manuscript ID**: IEEE LATAM Submission ID: 10150 **Authors**:
+
+- Raimundo M. B. Neto
+- Victor F. Souza
+- Max J. L. P. Júnior
+- Iury G. O. Silva
+- Luiz S. S. M. Filho
+- Adam D. F. Santos
+- Reginaldo C. S. Filho
+- Hugo P. Kuribayashi
+- Carlos R. L. Francês
+- João C. W. A. Costa
 
 **Affiliation:**
 - Federal University of Pará (UFPA)
