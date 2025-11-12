@@ -1,14 +1,14 @@
-# Projeto-Norte-Energia
+# North-Energy-Project
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-> Repositório referente a uma API, desenvolvida para o projeto "Estratégias baseadas em SHM, 
-> Machine e Deep Learning para extração de padrões em estruturas críticas da UHE Belo Monte". 
-> Feita em Python, utilizando o framework Django e o banco de dados PostgreSQL.
+<!---These are examples. See. https://shields.io for other people or to customize this set of shields. You may want to include dependencies, project status, and license information here.--->
+> Repository for an API, developed for the project "SHM-based strategies,
+> Machine and Deep Learning for pattern extraction in critical structures of the Belo Monte Hydroelectric Plant".
+> Built in Python, using the Django framework and the PostgreSQL database.
 
 
-## 💻 Pré-requisitos
+## 💻 Requirements
 
-Antes de começar, verifique se você instalou os seguintes recursos (Linux):
+Before you begin, make sure you have installed the following resources (Linux):
 * Docker:
 
 ```
@@ -21,99 +21,98 @@ sudo apt-get install docker.io
 sudo apt-get install docker-compose
 ```
 
-* Versão mais recente do Python:
+* Latest version of Python:
 
 ```
 sudo apt-get install python<verificar_versão>
 ```
 <del>
-## 🚀 Instalando
+## 🚀 Installing
 
-Para que seja possível executar o projeto, é necessário instalar as bibliotecas presentes no requirements.txt:
-
+In order to run the project, you need to install the libraries listed in requirements.txt:
 ```
 pip install -r requirements.txt
 ```
 </del>
 
-## ☕ Usando a API
+## ☕ Using the API
 
-Para usar a API com o Docker-Compose, siga estas etapas:
+To use the API with Docker Compose, follow these steps:
 
-- Construa a imagem do Docker executando esse comando na raiz do projeto:
+- Build the Docker image by running this command in the project root:
 ```
 - docker-compose up
-- obs: Nas versoes 2.x do docker compose o comando 'docker-compose' é executado sem o hifen(-)
+- obs: In Docker Compose versions 2.x, the 'docker-compose' command is executed without the hyphen (-).
 ```
-Observação: Ao finalizar a construção, é possível apertar CTRL-C para liberar o terminal.
-- Execute o projeto sem ocupar o terminal da seguinte forma:
+Note: When you finish building, you can press CTRL-C to release the terminal.
+- Run the project without occupying the terminal as follows:
 ```
 - docker-compose up -d
 ```
 
-- Para executar qualquer comando do Django pelo docker.
+- To run any Django command via Docker.
 ```
 - docker-compose exec web python manage.py <comando>
 ```
-Para checar se tudo está funcionando, basta executar o projeto e checar as portas 8000 (django web) e 5051 (pgadmin) no navegador. Por exemplo:
+To check if everything is working, simply run the project and check ports 8000 (Django Web) and 5051 (pgAdmin) in your browser. For example:
 ```
 localhost:8000
 ```
 
-Agora, em relação a migrations e seeds:
-- Para criar migrations:
+Now, regarding migrations and seeds:
+- To create migrations:
 ```
 docker-compose exec web python manage.py  makemigrations
 ```
-- Para povoar o banco com as tabelas contidas nas migrations:
+- To populate the database with the tables contained in the migrations:
 ```
 docker-compose exec web python manage.py migrate
 ```
 
-- Para povoar a tabela de usuários com as informações contidas nos arquivos de Fixtures, utilize o comando:
+- To populate the user table with the information contained in the Fixtures files, use the following command:
 ```
 docker-compose exec web python manage.py loaddata user
 ```
-- Para povoar a tabela de estruturas com as informações contidas nos arquivos de Fixtures, utilize o comando:
+- To populate the structure table with the information contained in the Fixtures files, use the following command:
 ```
 docker-compose exec web python manage.py loaddata structure
 ```
 
-- ~~Para povoar a tabela de limiares de projeto com as informações contidas nos arquivos de Fixtures é preciso:~~
-1. ~~Acessar a aplicação e fazer o carregamento do pdf com os dados relativos a estrutura de interesse. Ex: leituras_bvsa.pdf~~
-2. ~~Utilizar o comando:~~
+- To populate the design threshold table with the information contained in the Fixtures files, you need to:
+1. Access the application and load the PDF with the data related to the structure of interest. Ex: leituras_bvsa.pdf
+2. Use the command:
 
-    ~~docker-compose exec web python manage.py loaddata project_threshold~~
+    docker-compose exec web python manage.py loaddata project_threshold
 
-- Para limpar os volumes do repositório (MUITO cuidado ao usar):
+- To clear the repository volumes (be VERY careful when using this):
 ```docker compose down -v```
 
-## 🐘 Usando pgadmin para visualizar os dados
-Primeiro, execute a API e acesse a porta:
+## 🐘 Using pgAdmin to view the data
+First, run the API and access the port:
 ```
 localhost:5051
 ```
-Após isso, siga os seguintes passos:
-- Faça login no pgadmin usando as credenciais presentes no arquivo "docker-compose.yml".
-- Clique com o botão direito em "servers" e selecione a opção de registrar um novo servidor.
-- Na aba "General", apenas nomeie o servidor como desejar.
-- Na aba "Connection", preencha os campos, "Host name/address", "Username", e "Password" com as informações contidas no arquivo "docker-compose.yml". 
-- Clique em "Save".
+After that, follow these steps:
+- Log in to pgAdmin using the credentials found in the "docker-compose.yml" file.
+- Right-click on "servers" and select the option to register a new server.
+- In the "General" tab, simply name the server as desired.
+- In the "Connection" tab, fill in the fields "Host name/address", "Username", and "Password" with the information contained in the "docker-compose.yml" file.
+- Click "Save".
 
-Ao fim dessas etapas, será possível visualizar o banco, você poderá visualizar as tabelas em "Schemas", se houverem. Além disso, é possível fazer queries PostgreSQL usando a ferramenta QuerieTool.
+After these steps, you will be able to view the database; you will be able to see the tables in "Schemas," if any. Additionally, you can perform PostgreSQL queries using the QueryTool.
 
-## Outro
-Para gerar dados dummy para os boxplots do módulo de visão computacional:
-1. Com o back-end rodando, abra um terminal livre e execute o comando 
+## Other
+To generate dummy data for the boxplots in the computer vision module:
+1. With the back-end running, open a free terminal and run the command
 ```Bash
 sudo docker compose exec web python manage.py shell
 ```
-2. Uma vez no shell, execute:
+2. Once in the shell, run:
 ```Python
 from apps.nesa.nesa-vision.helper.boxplot_mock_data_generation import insert_dummies_in_db
 inset_dummies_in_db
 ```
 > [!CAUTION]
-> Não usar em produção
+> Do not use in production.
 
-[⬆ Voltar ao topo](#projeto-norte-energia)
+[⬆ Back to top](#projeto-norte-energia)
