@@ -1,0 +1,4 @@
+{
+  "ignoredFiles": [".dockerignore", "__init__.py"],
+  "ignoredExtensions": [".pdf", ".xlsx", ".csv", ".json", ".pickle", ".gitignore", ".dockerignore"]
+}

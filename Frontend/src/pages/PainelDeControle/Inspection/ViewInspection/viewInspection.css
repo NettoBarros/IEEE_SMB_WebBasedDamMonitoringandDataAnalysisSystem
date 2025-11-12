@@ -1,0 +1,115 @@
+.headerStyleMax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #078e9c;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.zindexVision{
+  z-index: 2;
+}
+
+.visionCards{
+  margin-top: 20px;
+}
+
+.boxsPlotVision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 900px) {
+  .boxsPlotVision {
+    grid-template-columns: 1fr;
+  }
+}
+
+.exportIconMax{
+  cursor: pointer;
+}
+
+.maxcemporc{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.vlwUnicMax {
+  font-size: 40px;
+}
+
+.groupCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.inspectionCard {
+  height: 10rem;
+}
+
+.ortomosaicoImg {
+  width: 100%
+}
+
+.selectionMapMax {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.selectionMapMax h3 {
+  text-align: start;
+}
+
+.select-style{
+  width: 200px;
+}
+
+.blockMaxSelect {
+  justify-self: end;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 99;
+}
+
+.arrowIcon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.timestampInspection{
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #078e9c;
+  font-size: 17px;
+  text-align: center;
+  padding: 4px;
+}
+
+.dateControlMax {
+  background: #fff;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid #bfc4c4;
+}
+
+.ofuscar {
+  opacity: 0.5;
+  pointer-events: none;
+}

@@ -1,0 +1,39 @@
+.normal {
+    flex: 4;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    color: rgb(245, 153, 153);
+}
+
+.title {
+margin-bottom: 20px;
+font-size: 2rem !important;
+}
+
+.cheioMax {
+    width: 100%;
+}
+
+.chartGrid {
+stroke: rgb(228, 225, 225);
+}
+
+.loading-div {
+    align-items: center;
+}
+
+.loading-icon {
+    margin-top: 175px;
+    margin-left: 50%;
+    color: #078E9C;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 2%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

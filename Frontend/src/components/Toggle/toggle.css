@@ -1,0 +1,9 @@
+.exit-direction-button{
+    background-color: #078E9C;
+    color: white;
+}
+
+.exit-direction-button:active{
+    color: #078E9C;
+    border: 2px solid #078E9C;
+}

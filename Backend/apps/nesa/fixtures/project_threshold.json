@@ -1,0 +1,182 @@
+[
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "1",
+        "fields": {
+            "sensor": 7,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 82.09,
+            "alert_threshold": 95.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "2",
+        "fields": {
+            "sensor": 6,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 82.09,
+            "alert_threshold": 95.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "3",
+        "fields": {
+            "sensor": 5,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 75.7,
+            "alert_threshold": 79.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "4",
+        "fields": {
+            "sensor": 4,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 75.7,
+            "alert_threshold": 79.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "5",
+        "fields": {
+            "sensor": 12,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 62.6,
+            "alert_threshold": 74.15
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "6",
+        "fields": {
+            "sensor": 9,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 62.6,
+            "alert_threshold": 74.15
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "7",
+        "fields": {
+            "sensor": 10,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 55.0,
+            "alert_threshold": 60.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "8",
+        "fields": {
+            "sensor": 11,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 55.0,
+            "alert_threshold": 60.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "9",
+        "fields": {
+            "sensor": 17,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 56.0,
+            "alert_threshold": 70.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "10",
+        "fields": {
+            "sensor": 8,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 56.0,
+            "alert_threshold": 70.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "11",
+        "fields": {
+            "sensor": 2,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 46.5,
+            "alert_threshold": 55.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "12",
+        "fields": {
+            "sensor": 1,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 46.5,
+            "alert_threshold": 55.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "13",
+        "fields": {
+            "sensor": 13,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 35.5,
+            "alert_threshold": 36.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "14",
+        "fields": {
+            "sensor": 18,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 70.96,
+            "alert_threshold": 82.49
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "15",
+        "fields": {
+            "sensor": 3,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 66.63,
+            "alert_threshold": 72.61
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "16",
+        "fields": {
+            "sensor": 25,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 89.65,
+            "alert_threshold": 94.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "17",
+        "fields": {
+            "sensor": 24,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 86.3,
+            "alert_threshold": 88.8
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "18",
+        "fields": {
+            "sensor": 21,
+            "exit_direction": "Cota Piezométrica",
+            "attention_threshold": 86.3,
+            "alert_threshold": 88.8
+        }
+    }
+]

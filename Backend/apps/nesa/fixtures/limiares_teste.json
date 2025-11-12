@@ -1,0 +1,962 @@
+[
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "1",
+        "fields": {
+            "sensor": 7,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 82.09,
+            "alert_threshold": 95.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "2",
+        "fields": {
+            "sensor": 6,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 82.09,
+            "alert_threshold": 95.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "3",
+        "fields": {
+            "sensor": 5,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 75.7,
+            "alert_threshold": 79.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "4",
+        "fields": {
+            "sensor": 4,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 75.7,
+            "alert_threshold": 79.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "5",
+        "fields": {
+            "sensor": 12,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 62.6,
+            "alert_threshold": 74.15
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "6",
+        "fields": {
+            "sensor": 9,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 62.6,
+            "alert_threshold": 74.15
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "7",
+        "fields": {
+            "sensor": 10,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 55.0,
+            "alert_threshold": 60.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "8",
+        "fields": {
+            "sensor": 11,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 55.0,
+            "alert_threshold": 60.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "9",
+        "fields": {
+            "sensor": 17,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 56.0,
+            "alert_threshold": 70.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "10",
+        "fields": {
+            "sensor": 8,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 56.0,
+            "alert_threshold": 70.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "11",
+        "fields": {
+            "sensor": 2,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 46.5,
+            "alert_threshold": 55.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "12",
+        "fields": {
+            "sensor": 1,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 46.5,
+            "alert_threshold": 55.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "13",
+        "fields": {
+            "sensor": 13,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 35.5,
+            "alert_threshold": 36.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "14",
+        "fields": {
+            "sensor": 18,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 70.96,
+            "alert_threshold": 82.49
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "15",
+        "fields": {
+            "sensor": 3,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 66.63,
+            "alert_threshold": 72.61
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "16",
+        "fields": {
+            "sensor": 25,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 89.65,
+            "alert_threshold": 94.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "17",
+        "fields": {
+            "sensor": 24,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 86.3,
+            "alert_threshold": 88.8
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "18",
+        "fields": {
+            "sensor": 21,
+            "exit_direction": "Cota Piezom\u00e9trica",
+            "attention_threshold": 86.3,
+            "alert_threshold": 88.8
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "19",
+        "fields": {
+            "sensor": 42,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "20",
+        "fields": {
+            "sensor": 52,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "21",
+        "fields": {
+            "sensor": 42,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "22",
+        "fields": {
+            "sensor": 52,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "23",
+        "fields": {
+            "sensor": 42,
+            "exit_direction": "Recalque",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "24",
+        "fields": {
+            "sensor": 52,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 7.3,
+            "alert_threshold": 14.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "25",
+        "fields": {
+            "sensor": 39,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "26",
+        "fields": {
+            "sensor": 43,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "27",
+        "fields": {
+            "sensor": 39,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "28",
+        "fields": {
+            "sensor": 43,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "29",
+        "fields": {
+            "sensor": 39,
+            "exit_direction": "Recalque",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "30",
+        "fields": {
+            "sensor": 43,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 2.5,
+            "alert_threshold": 5.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "31",
+        "fields": {
+            "sensor": 38,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "32",
+        "fields": {
+            "sensor": 45,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "33",
+        "fields": {
+            "sensor": 38,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "34",
+        "fields": {
+            "sensor": 45,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "35",
+        "fields": {
+            "sensor": 38,
+            "exit_direction": "Recalque",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "36",
+        "fields": {
+            "sensor": 45,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 12.0,
+            "alert_threshold": 24.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "37",
+        "fields": {
+            "sensor": 37,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "38",
+        "fields": {
+            "sensor": 58,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "39",
+        "fields": {
+            "sensor": 37,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "40",
+        "fields": {
+            "sensor": 58,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "41",
+        "fields": {
+            "sensor": 37,
+            "exit_direction": "Recalque",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "42",
+        "fields": {
+            "sensor": 58,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 3.7,
+            "alert_threshold": 7.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "43",
+        "fields": {
+            "sensor": 40,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "44",
+        "fields": {
+            "sensor": 54,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "45",
+        "fields": {
+            "sensor": 40,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "46",
+        "fields": {
+            "sensor": 54,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "47",
+        "fields": {
+            "sensor": 40,
+            "exit_direction": "Recalque",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "48",
+        "fields": {
+            "sensor": 54,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 15.6,
+            "alert_threshold": 31.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "49",
+        "fields": {
+            "sensor": 35,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "50",
+        "fields": {
+            "sensor": 46,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "51",
+        "fields": {
+            "sensor": 35,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "52",
+        "fields": {
+            "sensor": 46,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "53",
+        "fields": {
+            "sensor": 35,
+            "exit_direction": "Recalque",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "54",
+        "fields": {
+            "sensor": 46,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 8.3,
+            "alert_threshold": 16.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "55",
+        "fields": {
+            "sensor": 41,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "56",
+        "fields": {
+            "sensor": 50,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "57",
+        "fields": {
+            "sensor": 41,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "58",
+        "fields": {
+            "sensor": 50,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "59",
+        "fields": {
+            "sensor": 41,
+            "exit_direction": "Recalque",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "60",
+        "fields": {
+            "sensor": 50,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 21.3,
+            "alert_threshold": 42.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "61",
+        "fields": {
+            "sensor": 59,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 10.6,
+            "alert_threshold": 21.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "62",
+        "fields": {
+            "sensor": 59,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 10.6,
+            "alert_threshold": 21.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "63",
+        "fields": {
+            "sensor": 59,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 10.6,
+            "alert_threshold": 21.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "64",
+        "fields": {
+            "sensor": 36,
+            "exit_direction": "Deslocamento da Estaca Dir(-)/Esq(+)",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "65",
+        "fields": {
+            "sensor": 48,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "66",
+        "fields": {
+            "sensor": 36,
+            "exit_direction": "Deslocamento do Afastamento Mont(-)/Jus(+)",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "67",
+        "fields": {
+            "sensor": 48,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "68",
+        "fields": {
+            "sensor": 36,
+            "exit_direction": "Recalque",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "69",
+        "fields": {
+            "sensor": 48,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 22.1,
+            "alert_threshold": 44.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "70",
+        "fields": {
+            "sensor": 55,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 10.2,
+            "alert_threshold": 20.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "71",
+        "fields": {
+            "sensor": 55,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 10.2,
+            "alert_threshold": 20.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "72",
+        "fields": {
+            "sensor": 55,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 10.2,
+            "alert_threshold": 20.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "73",
+        "fields": {
+            "sensor": 51,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 24.8,
+            "alert_threshold": 49.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "74",
+        "fields": {
+            "sensor": 51,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 24.8,
+            "alert_threshold": 49.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "75",
+        "fields": {
+            "sensor": 51,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 24.8,
+            "alert_threshold": 49.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "76",
+        "fields": {
+            "sensor": 47,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 11.3,
+            "alert_threshold": 22.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "77",
+        "fields": {
+            "sensor": 47,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 11.3,
+            "alert_threshold": 22.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "78",
+        "fields": {
+            "sensor": 47,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 11.3,
+            "alert_threshold": 22.5
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "79",
+        "fields": {
+            "sensor": 57,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 12.6,
+            "alert_threshold": 25.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "80",
+        "fields": {
+            "sensor": 57,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 12.6,
+            "alert_threshold": 25.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "81",
+        "fields": {
+            "sensor": 57,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 12.6,
+            "alert_threshold": 25.2
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "82",
+        "fields": {
+            "sensor": 60,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 5.2,
+            "alert_threshold": 10.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "83",
+        "fields": {
+            "sensor": 60,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 5.2,
+            "alert_threshold": 10.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "84",
+        "fields": {
+            "sensor": 60,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 5.2,
+            "alert_threshold": 10.3
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "85",
+        "fields": {
+            "sensor": 49,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 15.0,
+            "alert_threshold": 30.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "86",
+        "fields": {
+            "sensor": 49,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 15.0,
+            "alert_threshold": 30.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "87",
+        "fields": {
+            "sensor": 49,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 15.0,
+            "alert_threshold": 30.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "88",
+        "fields": {
+            "sensor": 56,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 15.2,
+            "alert_threshold": 30.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "89",
+        "fields": {
+            "sensor": 56,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 15.2,
+            "alert_threshold": 30.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "90",
+        "fields": {
+            "sensor": 56,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 15.2,
+            "alert_threshold": 30.4
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "91",
+        "fields": {
+            "sensor": 53,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 14.3,
+            "alert_threshold": 28.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "92",
+        "fields": {
+            "sensor": 53,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 14.3,
+            "alert_threshold": 28.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "93",
+        "fields": {
+            "sensor": 53,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 14.3,
+            "alert_threshold": 28.6
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "94",
+        "fields": {
+            "sensor": 44,
+            "exit_direction": "Desolcamento Transversal (Y)",
+            "attention_threshold": 10.0,
+            "alert_threshold": 20.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "95",
+        "fields": {
+            "sensor": 44,
+            "exit_direction": "Desolcamento Longitudinal (X)",
+            "attention_threshold": 10.0,
+            "alert_threshold": 20.0
+        }
+    },
+    {
+        "model": "nesa.Project_Threshold",
+        "pk": "96",
+        "fields": {
+            "sensor": 44,
+            "exit_direction": "Recalque (Z)",
+            "attention_threshold": 10.0,
+            "alert_threshold": 20.0
+        }
+    }
+]

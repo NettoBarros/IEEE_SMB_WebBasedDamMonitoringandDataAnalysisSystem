@@ -1,0 +1,28 @@
+[
+    {
+        "model": "nesa.User",
+        "pk": 1,
+        "fields": {
+            "first_name": "root",
+            "last_name": "",
+            "registration": 123123,
+            "is_admin": true,
+            "role": "supervisor",
+            "email": "root@nesa.com",
+            "password": "pbkdf2_sha256$320000$jIOyr4MEbog7diGRDkTgIJ$pWgqKKCV2kRPyOiuOo3d7rlVhlFayjaFXL/lErWOuo4="
+        }
+    },
+    {
+        "model": "nesa.User",
+        "pk": 2,
+        "fields": {
+            "first_name": "user",
+            "last_name": "",
+            "registration": 123124,
+            "is_admin": false,
+            "role": "worker",
+            "email": "user@nesa.com",
+            "password": "pbkdf2_sha256$320000$swgxbEJE8u0R1pmN143iGK$h+L9zn6Ejd4WRw7ru7dmnfZ/jsxHFZ5rFfPhaMaZ770="
+        }
+    }
+]

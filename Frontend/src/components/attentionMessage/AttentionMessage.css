@@ -1,0 +1,15 @@
+.max-attentionModalHeader img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.max-attentionModalHeader h5 {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+}
+
+.max-attentionModalHeader {
+  background-color: #078E9C;
+}

@@ -1,0 +1,23 @@
+.tooltipMax {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+    transition: opacity 2.3s;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F5F5F5;
+    width: 200px;
+    border: #055E67 solid 1px;
+    z-index: 10;
+}
+
+.tooltip-text {
+    color: #055E67;
+    font-size: 14px;
+    margin: 0;
+}
+
+.toptop {
+    align-self: self-start;
+}

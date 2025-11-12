@@ -1,0 +1,179 @@
+.outSideBox{
+    flex-direction: row;
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    height: 500px;
+    align-items: flex-start;
+    justify-items: center;
+
+    border-radius: 8px;
+}
+
+.inBox{
+    background-color: #ffffff;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+.btnn{
+    background-color: #078E9C;
+    color: white;
+    height: 5vh;
+    width: 5em;
+    border: none;
+    border-radius: 5px;
+}
+.btnn:hover{
+    background-color: white;
+    color: #078E9C;
+    border-radius: 5px;
+}
+
+
+.optSideBar{
+    background-color: #078d9c;
+    height: 32rem;
+    width: 12rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.optSideBar-btn{
+    width: 18%;
+    height: 25%;
+    background-color: #078d9c;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    border: 2px solid #078d9c;
+}
+.optSideBar-btn:hover{
+    width: 18%;
+    height: 25%;
+    background-color: #ffffff;
+    color: #078d9c;
+    border-radius: 2px;
+    border: 2px solid #078d9c;
+}
+.btn-table{
+    background-color: #ffffff;
+    border: none;
+    width: 150px;
+}
+
+.scroll{
+    max-width: 100%;
+    overflow: scroll
+}
+
+.btnView{
+    width: 25px;
+    height: 25px;
+    background-color: #078d9c;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.btnView:hover{
+    width: 25px;
+    height: 25px;
+    background-color: #0bacbe;
+    color: #078d9c;
+    border-radius: 10%;
+}
+
+.btnDel{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.btnDel:hover{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 101, 101);
+    color: white;
+    border-radius: 10%;
+}
+
+.icon{
+    width: 80%;
+    height: 80%;
+}
+
+select{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: #078d9c;
+    border: none;
+    margin-left: 5px;
+}
+.headerModal{
+    background-color: red;
+}
+.img-notice{
+    width: 100px;
+    height: 100px;
+}
+.text-color{
+    color: #ffffff;
+}
+.btn-cancelar{
+    background-color: #8e8e8e;
+    color: #ffffff;
+}
+.btn-confirmar{
+    background-color: red;
+    color: #ffffff;
+}
+.box-Info{
+    display: flex;
+    background-color: #ffffff;
+    width: 50%;
+    height: 20%;
+    color: #8b8b8b;
+    border-radius: 5px;
+    border: 2px solid #515151;
+    justify-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.fields{
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+
+}
+.info{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+
+}
+.modalTitle{
+    color: #ffffff;
+}
+.header-modal{
+    background-color: #078d9c;
+    color: #ffffff;
+}
+.btn-save{
+    background-color: #078d9c;
+    color: #ffffff;
+
+}
+.btn-save:hover{
+    background-color: #ffffff;
+    color: #078d9c;
+    border: 2px solid #078d9c;
+}
+.modal-content{
+    height:60%;
+}

@@ -1,0 +1,22 @@
+.map {
+    flex: 2;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    width: 95%;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.loading-div {
+    align-items: center;
+}
+
+.loading-icon {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 50%;
+    color: #078E9C;
+}

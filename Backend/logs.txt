@@ -1,0 +1,246 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:00:14
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:06:44
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:08:15
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+-------------------------- ./apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:17:37
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+-------------------------- ./apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:20:11
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:21:05
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ./apps/nesa/files/ortoimagem.jpeg
+-------------------------- ./apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:23:54
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ./apps/nesa/files/ortoimagem.jpeg
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ./apps/nesa/files/ortoimagem.jpeg
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:28:38
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO apps/nesa/files/ortoimagem.jpeg
+-------------------------- apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:50:37
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ../apps/nesa/files/ortoimagem.jpeg
+-------------------------- ../apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:51:55
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ../apps/nesa/files/ortoimagem.jpeg
+-------------------------- ../apps/nesa/files/f{orthoimage_name}
+../apps/nesa/files/f{orthoimage_name}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:53:02
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ../apps/nesa/files/ortoimagem.jpeg
+-------------------------- ../apps/nesa/files/ortoimagem.jpeg
+../apps/nesa/files/ortoimagem.jpeg
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 19:54:11
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO ./apps/nesa/files/ortoimagem.jpeg
+-------------------------- ./apps/nesa/files/ortoimagem.jpeg
+./apps/nesa/files/ortoimagem.jpeg
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:00:43
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/ortoimagem.jpeg
+ortoimagem.jpeg
+orthoimage_name: ortoimagem.jpeg.
+CAMINHO CHAMADO apps/nesa/files/ortoimagem.jpeg
+-------------------------- apps/nesa/files/ortoimagem.jpeg
+apps/nesa/files/ortoimagem.jpeg
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+apps/nesa/files/odm_orthophoto(1).tif
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:15:53
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+apps/nesa/files/odm_orthophoto(1).tif
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:18:27
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+apps/nesa/files/odm_orthophoto(1).tif
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:23:02
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+apps/nesa/files/odm_orthophoto(1).tif
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:27:04
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2024 - 20:31:29
+Django version 4.2.11, using settings 'norte_energia_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+apps/nesa/files/odm_orthophoto(1).tif
+odm_orthophoto(1).tif
+orthoimage_name: odm_orthophoto(1).tif.
+CAMINHO CHAMADO apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif
+-------------------------- apps/nesa/files/odm_orthophoto(1).tif

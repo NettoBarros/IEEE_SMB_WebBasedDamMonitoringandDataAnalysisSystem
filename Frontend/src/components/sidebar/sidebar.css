@@ -1,0 +1,270 @@
+.max-sidebar-icon {
+  max-width: 1.875rem;
+  max-height: 1.875rem;
+  position: relative;
+}
+
+.max-sidebar-seta {
+  max-width: 0.7rem;
+  max-height: 0.7rem;
+  margin-left: -3px;
+}
+
+.max-sidebar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 3.3125rem;
+  height: 100%;
+  padding-top: 4.375rem;
+  background: #078E9C;
+  transition: all 0.4s ease;
+  z-index: 4;
+}
+
+.max-sidebar button {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: all 0.4s;
+}
+
+.max-sidebar div {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: all 0.4s;
+  padding-top: 5px;
+}
+
+.max-sidebar button > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  height: 48px;
+  width: 50px;
+  padding: 0 0 0 11.5px;
+  white-space: nowrap;
+}
+
+.max-sidebar div > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  height: 48px;
+  width: 50px;
+  padding: 0 0 0 11.5px;
+  white-space: nowrap;
+}
+
+.max-sidebar button span {
+  font-size: 1rem;
+}
+
+.max-sidebar div span {
+  font-size: 1rem;
+}
+
+.max-sidebar > nav {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.max-sidebar button:hover {
+  background: #055E67;
+}
+
+.max-sidebar div:hover {
+  background: #055E67;
+}
+
+.max-sidebar button > span > span {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-100%);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.max-sidebar div > span > span {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-100%);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.max-comandohover:hover {
+  width: 13.5625rem;
+}
+
+.max-comandohover:hover button > span > span {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0);
+}
+
+.max-comandohover:hover div > span > span {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0);
+}
+
+.max-seta {
+  display: grid;
+  grid-template-columns: 9.7rem auto;
+  align-items: center;
+}
+
+/* Subsidebar */
+
+.max-subsidebar {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.5625rem;
+  height: 100%;
+  padding-top: 4.375rem;
+  background: #20808A;
+}
+
+
+.max-subsidebar button {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: all 0.4s;
+}
+
+.max-subsidebar button > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  height: 48px;
+  width: 50px;
+  padding: 0 0 0 11.5px;
+  white-space: nowrap;
+}
+
+.max-subsidebar button span {
+  font-size: 1rem;
+}
+
+.max-subsidebar > nav {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.max-subsidebar button:hover {
+  background: #055E67;
+}
+
+.max-sub1 {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-30%);
+  transition: all 0.3s ease;
+}
+
+.max-sub2 {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-30%);
+  transition: all 0.3s ease;
+}
+
+.max-sub1 > nav {
+  display: none;
+}
+
+.max-sub2 > nav {
+  display: none;
+}
+
+.max-open-subsidebar1:hover .max-sub1 > nav{
+  display: flex;
+}
+
+.max-open-subsidebar2:hover .max-sub2 > nav{
+  display: flex;
+}
+
+
+.max-open-subsidebar1:hover .max-sub1 {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0%);
+}
+
+.max-open-subsidebar2:hover .max-sub2 {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0%);
+}
+
+/* Estilos existentes para .max-subsidebar e submenus */
+
+/* Adiciona consulta de mídia para dispositivos com largura máxima de 768px */
+@media (max-width: 768px) {
+  .max-subsidebar {
+    position: static;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    transform: translateY(0%);
+    opacity: 1;
+    pointer-events: all;
+    display: none; /* Esconde inicialmente o submenu */
+  }
+
+  .max-sidebar {
+    padding-top: 3.125rem;
+  }
+
+  .max-subsidebar > nav {
+    flex-direction: column;
+  }
+
+  .max-open-subsidebar1 {
+    z-index: 1;
+  }
+
+  .max-open-subsidebar1:hover .max-sub1,
+  .max-open-subsidebar2:hover .max-sub2 {
+    display: block; /* Mostra o submenu no hover (ou no clique, dependendo do comportamento desejado) */
+  }
+
+  /* Ajusta a animação para expandir para baixo */
+  .max-sub1, .max-sub2 {
+    transition: max-height 0.3s ease;
+    max-height: 0; /* Começa com max-height 0 para a animação de expansão */
+    overflow: hidden;
+  }
+
+  .max-open-subsidebar1:hover .max-sub1,
+  .max-open-subsidebar2:hover .max-sub2 {
+    max-height: 500px; /* Ajuste conforme necessário para acomodar o conteúdo do submenu */
+  }
+}

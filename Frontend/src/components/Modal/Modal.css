@@ -1,0 +1,65 @@
+.close{
+    margin-top: 25px;
+    margin-left: 48.5%;
+
+}
+
+.spinner-div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.boxUploud{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 2px rgb(191, 191, 191);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-style: dashed;
+    padding: 20px;
+}
+
+.boxUploud form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.btn-save{
+    background-color: #078E9C;
+    color: white;
+}
+
+.btn-save:hover{
+    background-color: #ffffff;
+    color: #078E9C;
+    border: 2px solid #078E9C;
+}
+
+#ModalImportPDFs {
+    color: #055E67;
+    font-weight: bold;
+}
+
+#ModalImportPDFs h1{
+    color: #055E67;
+    font-weight: bold;
+}

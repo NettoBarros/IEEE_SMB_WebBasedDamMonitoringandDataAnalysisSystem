@@ -1,0 +1,71 @@
+{
+  "name": "front-end2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.11",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.36.3",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "dom-to-image": "^2.6.0",
+    "file-saver": "^2.0.5",
+    "front-end2": "file:",
+    "leaflet": "^1.9.4",
+    "leaflet-imageoverlay-rotated": "^0.2.1",
+    "plotly.js": "^2.16.3",
+    "plotly.js-gl3d-dist": "^2.32.0",
+    "randomcolor": "^0.6.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-calendar": "^3.9.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-easy-panzoom": "^0.4.4",
+    "react-google-charts": "^4.0.0",
+    "react-icons": "^4.4.0",
+    "react-input-mask": "^2.0.4",
+    "react-leaflet": "^4.2.1",
+    "react-modal": "^3.15.1",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-tooltip": "^5.26.4",
+    "react-zoom-pan-pinch": "^3.4.2",
+    "recharts": "^2.1.15",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

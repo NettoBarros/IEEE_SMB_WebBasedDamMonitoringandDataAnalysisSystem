@@ -1,0 +1,24 @@
+.configespecial {
+    width: 30px;
+}
+
+.max-table {
+    color: #055E67;
+}
+
+.max-iconEdit {
+    width: 1.4375rem;
+    height: 1.4375rem;
+}
+
+.configespecial button {
+    background: transparent;
+}
+
+.configespecial button:hover {
+    opacity: 0.5;
+}
+
+#max-firstTable {
+    width: 3rem;
+}

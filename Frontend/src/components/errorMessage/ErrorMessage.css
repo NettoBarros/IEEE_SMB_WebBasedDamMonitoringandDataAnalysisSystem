@@ -1,0 +1,15 @@
+.max-errorModalHeader img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.max-errorModalHeader h5 {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+}
+
+.max-errorModalHeader {
+  background-color: red;
+}

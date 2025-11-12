@@ -1,0 +1,18 @@
+.main{
+    background-color: #078E9C;
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.drop{
+    background-color: #078E9C;
+    width: 120px;
+    padding: 5px;
+}
+
+.drop:hover, .drop:active{
+    background-color: white;
+    color:  #078E9C;
+}
+

@@ -1,0 +1,78 @@
+.btnn{
+    padding: 0 0.9rem;
+    color: #055E67;
+    font-weight: bold;
+    background: #f5f5f5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: auto;
+}
+.btnn:hover{
+    opacity: 0.8;
+}
+
+
+.pcUser-container{
+    display: grid;
+    padding: calc(4.375rem + 3%) 9% 0 calc(3.3125rem + 9%);
+    gap: 2rem;
+    align-content: start;
+    color: #055E67;
+}
+
+/* Media query para telas menores que 768px */
+@media (max-width: 768px) {
+    .pcUser-container {
+        padding: calc(2.5rem + 3%) 5% 0 calc(2rem + 5%);
+    }
+}
+
+.pcUser-bloco {
+    padding: 1rem 1rem;
+    display: grid;
+    align-items: center;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+.max-header {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.max-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.max-header button {
+    padding: 0 0.9rem;
+    color: #055E67;
+    font-weight: bold;
+    background: #f5f5f5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+}
+
+.max-header button:hover {
+    opacity: 0.8;
+}
+
+.max-modalCadastro {
+    background: #F5F5F5;
+}
+
+.max-modalCadastro  h5{
+    color: #055E67;
+    font-weight: bold;
+}
+
+.max-modalCadastro label{
+    color: #055E67;
+    font-weight: bold;
+}
+
+.max-deleteuser {
+    background: rgb(187, 23, 23);
+    color: white;
+}
+
+

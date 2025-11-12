@@ -1,0 +1,238 @@
+
+/* Estilos para o menu de perfil */
+.profile-menu {
+  float: right; /* Alinha o menu à direita */
+  position: relative;
+}
+
+/* Estilos para o botão de perfil */
+.profileBotao {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .profileMenu-textoNav {
+    display: none;
+  }
+  .iconNavbar{
+    margin-bottom: 0px;
+  }
+}
+
+/* Estilos para o dropdown do perfil */
+.dropdown-content-1 {
+  position: absolute;
+  max-width: 13.4375rem;
+  height: 7.5rem;
+  z-index: 3;
+  margin-top: 1.6rem;
+  right: 0;
+  display: block;
+  border-radius: 0.625rem 0rem 0.625rem 0.625rem;
+  background: #078e9c;
+  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Estilos para os links dentro do dropdown */
+.dropdown-content-1 a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+}
+
+/* Estilos quando o mouse passa por cima do link */
+.itemProfileMenu:hover {
+  background-color: #fff;
+  color: #055e67;
+}
+
+.dropdown-content-1 a span {
+  display: block;
+  font-size: 1.624rem;
+}
+
+.svg {
+  stroke: white;
+  fill: white;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  align-self: center;
+  margin-left: 10px;
+  z-index: 3;
+}
+
+.iconNavbar {
+  width: 2.3rem;
+  height: 2.3rem;
+  flex-shrink: 0;
+  align-self: center;
+  margin-left: 10px;
+  z-index: 3;
+}
+
+.profileBotao div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.itemProfileMenu {
+  display: grid;
+  margin: 1em;
+  grid-template-columns: 5px 1fr;
+  /* padding: 5px; */
+  width: 11.8125rem;
+  height: 2.375rem;
+  border-radius: 0.3125rem;
+  background: #055e67;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+
+#fadeee,
+#modalll {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+#fadeee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+/* Styles for the profile modal */
+#modalll {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f5f5f5;
+  padding: 50px;
+  border-radius: 0.2rem;
+  z-index: 10;
+  width: 30.125rem;
+  max-width: 90%;
+}
+
+.imagem-perfil {
+  width: 7rem;
+  height: 7rem;
+  flex-shrink: 0;
+  background: #078E9C;
+  border-radius: 5rem;
+}
+
+.dados {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+  font-family: roboto, monospace;
+}
+
+.informacoes {
+  display: grid;
+  justify-self: self-start;
+  margin-left: 20px;
+}
+
+.nome {
+  font-size: 1.5rem;
+}
+
+.e-mail {
+  font-size: 1rem;
+  color: #828282;
+}
+
+.cargo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+}
+
+.editarSenha {
+  display: grid;
+  justify-content: center;
+}
+
+.tituloSenha {
+  margin-top: 1.5rem;
+  display: grid;
+  justify-content: center;
+}
+
+.textoSenha {
+  text-align: center;
+  color: #078e9c;
+}
+
+.detalheSenha {
+  display: block;
+  width: 10rem;
+  background: #078e9c;
+  height: 2px;
+  margin-bottom: 1rem;
+}
+
+.labelSenha {
+  font-size: 1rem;
+  color: #078e9c;
+}
+
+.inputSenha {
+  border-radius: 0.2rem;
+  border: 1px solid #055e67;
+  background: #f8f7f7;
+  width: 15.0625rem;
+  height: 2.5625rem;
+  padding: 5px;
+}
+
+.inputs {
+  margin-bottom: 1rem;
+}
+
+
+.botaoSenha {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+.profileMenu-textoNav {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+#fade-profileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+}

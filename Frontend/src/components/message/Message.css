@@ -1,0 +1,12 @@
+.max-alertmessage{
+  position: fixed;
+  top: -180px; /* Comece fora da tela no topo */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 0.3s ease-in-out; /* Adicione uma transição suave */
+  z-index: 9999;
+}
+
+.max-alertmessage.show {
+  top: 90px; /* Desça para mostrar */
+}

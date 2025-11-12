@@ -1,0 +1,44 @@
+version: "3.7"
+
+services:
+  web:
+    container_name: new_web
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000 --insecure
+    volumes:
+      - .:/code
+    environment:
+      - SECRET_KEY=devsecretkey
+      - DEBUG=1
+      - DB_HOST=db
+      - DB_NAME=postgres
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+  db:
+    container_name: nesa_db
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  pgadmin:
+    container_name: nesa_pgadmin
+    image: dpage/pgadmin4
+    depends_on:
+      - db
+    ports:
+      - "5051:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: root@nesa.com
+      PGADMIN_DEFAULT_PASSWORD: root
+
+volumes:
+  postgres_data:
