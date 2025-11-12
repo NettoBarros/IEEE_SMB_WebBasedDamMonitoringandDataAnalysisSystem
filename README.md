@@ -19,36 +19,38 @@
 
 ---
 
-## 📘 Descrição Geral
+## 📘 General description
 
-O **SMB** é uma aplicação web desenvolvida para apoiar o monitoramento e a segurança estrutural de barragens e diques do **Complexo Hidrelétrico de Belo Monte (CHBM)**.
+The **SMB** is a web application developed to support the monitoring and structural safety of dams and dikes of the **Belo Monte Hydroelectric Complex (CHBM)**.
 
-O sistema integra técnicas de **Aprendizado de Máquina** ao processo de **Monitoramento de Integridade Estrutural (Structural Health Monitoring – SHM)**, permitindo a **detecção precoce de anomalias** em dados instrumentais e a visualização dos resultados por meio de um **dashboard interativo**.
-
----
-
-## 🧩 Principais Funcionalidades
-
-- **Detecção de Anomalias (Manual e Automática)**  
-  Utiliza o algoritmo **Local Outlier Factor (LOF)** para identificar comportamentos atípicos em séries temporais de medições.
-
-- **Correlação e Clusterização de Instrumentos**  
-  Agrupa instrumentos vizinhos com base em sua localização (longitude, latitude e altura) utilizando **K-means**.
-
-- **Dashboard Interativo**  
-  Interface em React para visualização de dados, gráficos e relatórios de anomalias em tempo real.
-
-- **Arquitetura Modular e Conteinerizada**  
-  Backend em Django/Python, frontend em React e banco de dados **PostgreSQL**, orquestrados com **Docker**.
+The system integrates **Machine Learning** techniques into the **Structural Health Monitoring (SHM)** process, allowing for the **early detection of anomalies** in instrumental data and the visualization of results through an **interactive dashboard**.
 
 ---
 
-## 🧠 Arquitetura do Sistema
+## 🧩 Main Features
+
+- **Anomaly Detection (Manual and Automatic)**
+
+Uses the **Local Outlier Factor (LOF)** algorithm to identify atypical behaviors in time series measurements.
+
+- **Instrument Correlation and Clustering**
+
+Groups neighboring instruments based on their location (longitude, latitude, and altitude) using **K-means**.
+
+- **Interactive Dashboard**
+React interface for data visualization, graphs, and real-time anomaly reports.
+
+- **Modular and Containerized Architecture**
+Backend in Django/Python, frontend in React, and **PostgreSQL** database, orchestrated with **Docker**.
+
+---
+
+## 🧠 System Architecture
 
 <img width="1055" height="742" alt="arquitetura" src="https://github.com/user-attachments/assets/739ff632-0068-42ce-b1bf-7310e6301d6e" />
 
 ---
-## Instruções para execução do projeto
+## Instructions for project execution
 
-- **As instruções para a execução do Backend e Frontend da aplicação estão disponíveis em suas respectivas pastas no arquivo Readme.**
+**Instructions for running the application's backend and frontend are available in their respective folders in the Readme file.**
 
