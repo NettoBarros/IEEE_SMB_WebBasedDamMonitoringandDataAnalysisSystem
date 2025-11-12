@@ -1,12 +1,12 @@
-# Projeto-Norte-Energia-Frontend
+# North-Energy-Frontend Project
 
-Repositório das telas do projeto "Estratégias baseadas em SHM, Machine e Deep Learning para extração de padrões em estruturas críticas da UHE Belo Monte". Está sendo feita em React que é baseado em Javascript.
+This is a repository of the project screens for "SHM, Machine Learning, and Deep Learning-based strategies for pattern extraction in critical structures of the Belo Monte Hydroelectric Plant." It is being developed using React, which is based on Javascript.
 
-## 🚀 Começando
+## 🚀 Starting
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-Para conseguir executar o projeto é necessário a instalação:
+To run the project, the following installation is required:
 
 * Node.js
 ```
@@ -18,26 +18,26 @@ https://nodejs.org/en/download/
 https://git-scm.com/downloads
 ```
 
-### 🔧 Instalação
+### 🔧 Installation
 
-* Para clonar o projeto de: 
+* To clone the project of:
 
 ```
 git clone <link HTTPS ou SSH>
 ```
-Ao clonar o projeto é necessário que seja executado o comando:
+When cloning the project, the following command must be executed:
 
 ```
 npm install
 ```
-ele fará com que todas as depedencias do projeto sejam instaladas.
+It will ensure that all project dependencies are installed.
 
-## 💻 Visualização
+## 💻 Visualization
 
-Para visualizar o projeto deve-se executar o comando:
+To view the project, you must run the following command:
 
 ```
 npm start
 ```
 
-Após executar o comando você será redirecionado a uma pagina com os conteudos.
+After executing the command, you will be redirected to a page with the content.
